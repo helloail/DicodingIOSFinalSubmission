@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Core (1.0.0):
+    - RealmSwift
+  - Realm (10.5.1):
+    - Realm/Headers (= 10.5.1)
+  - Realm/Headers (10.5.1)
+  - RealmSwift (10.5.1):
+    - Realm (= 10.5.1)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SDWebImageSwiftUI (1.5.0):
+    - SDWebImage (~> 5.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Core
+  - RealmSwift
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  https://github.com/helloail/DicodingIosExpert-CorePodSpec.git:
+    - Core
+  trunk:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Core: ec74f7fd6640b3c48510e607e402be9d0a77c4f5
+  Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
+  RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
+
+PODFILE CHECKSUM: c0bc91a4bef7b061f1e96b89e218a5d51873c22f
+
+COCOAPODS: 1.10.1
