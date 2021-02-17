@@ -22,7 +22,6 @@ target 'Tourism' do
   pod 'RealmSwift'
   pod 'Alamofire', '~> 5.2'
   pod 'Core'
-  
 end
 
 
