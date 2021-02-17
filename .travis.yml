@@ -2,4 +2,7 @@ language: swift
 osx_image: xcode12 
 xcode_project: ForYouDicodingIOSExpertSub1.xcodeproj 
 xcode_scheme: ForYouDicodingIOSExpertSub1
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+xcode_destination: platform=iOS Simulator,OS=14.1,name=iPhone 11 Pro
+before_install:
+  - gem install cocoapods
+  - pod repo update
