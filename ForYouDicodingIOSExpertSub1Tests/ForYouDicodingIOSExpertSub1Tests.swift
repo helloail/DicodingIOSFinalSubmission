@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import ForYouDicodingIOSExpertSub1
 
 class ForYouDicodingIOSExpertSub1Tests: XCTestCase {
 
