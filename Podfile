@@ -8,6 +8,8 @@ source 'https://github.com/helloail/DicodingIosExpert-CorePodSpec'
 
 workspace 'ForYouDicodingIOSExpertSub1'
 
+project '../ForYouDicodingIOSExpertSub2/ForYouDicodingIOSExpertSub1.xcodeproj'
+
 target 'ForYouDicodingIOSExpertSub1' do
   # Pods for ForYouDicodingIOSExpertSub1
   pod 'Alamofire', '~> 5.2'
