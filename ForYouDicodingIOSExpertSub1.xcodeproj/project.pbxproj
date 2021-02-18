@@ -691,6 +691,7 @@
 				DEVELOPMENT_TEAM = 292DGA5D4R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ForYouDicodingIOSExpertSub1/SuportingFIles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -714,6 +715,7 @@
 				DEVELOPMENT_TEAM = 292DGA5D4R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ForYouDicodingIOSExpertSub1/SuportingFIles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -733,7 +735,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292DGA5D4R;
 				INFOPLIST_FILE = ForYouDicodingIOSExpertSub1Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -754,7 +756,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292DGA5D4R;
 				INFOPLIST_FILE = ForYouDicodingIOSExpertSub1Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
