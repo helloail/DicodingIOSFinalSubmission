@@ -35,5 +35,5 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: xcodebuild test -scheme ForYouDicodingIOSExpertSub1 -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=14.2"
+        run: xcodebuild test -scheme ForYouDicodingIOSExpertSub1 -destination "platform=iOS Simulator, name=iPhone 11, OS=14.2"
           
