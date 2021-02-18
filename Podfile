@@ -5,8 +5,10 @@ use_frameworks!
 
 
 source 'https://github.com/helloail/DicodingIosExpert-CorePodSpec'
+source 'https://github.com/CocoaPods/Specs.git'
 
 workspace 'ForYouDicodingIOSExpertSub1'
+
 
 target 'ForYouDicodingIOSExpertSub1' do
   # Pods for ForYouDicodingIOSExpertSub1
