@@ -16,6 +16,16 @@ target 'ForYouDicodingIOSExpertSub1' do
   pod 'SDWebImageSwiftUI'
   pod 'RealmSwift'
   pod 'Core'
+  
+  post_install do |installer|
+          installer.pods_project.targets.each do |target|
+              target.build_configurations.each do |config|
+                 if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 9.0
+                   config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+                 end
+              end
+          end
+       end
 end
 
 target 'Tourism' do
@@ -24,4 +34,5 @@ target 'Tourism' do
   pod 'RealmSwift'
   pod 'Alamofire', '~> 5.2'
   pod 'Core'
+  
 end
