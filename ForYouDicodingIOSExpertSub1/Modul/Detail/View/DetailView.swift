@@ -6,7 +6,7 @@
 // ??
 
 import SwiftUI
-import SDWebImageSwiftUI
+//import SDWebImageSwiftUI
 import Core
 import Tourism
 
@@ -85,7 +85,7 @@ extension DetailView {
                 VStack(alignment: .leading, spacing: 8) {
                     
                     titledetail
-                    imageDetail
+//                    imageDetail
                     addressdetail
                     descdetail
                     
@@ -121,18 +121,18 @@ extension DetailView {
         
     }
     
-    var imageDetail: some View {
+//    var imageDetail: some View {
         
-        WebImage(url: URL(string: self.presenter.item?.image ?? ""))
-            .resizable()
-            .indicator(.activity)
-            .transition(.fade(duration: 0.5))
-            .aspectRatio(contentMode: .fill)
-            .frame(maxWidth: .infinity,
-                   maxHeight: imageheight)
-            .cornerRadius(20)
-        
-    }
+//        WebImage(url: URL(string: self.presenter.item?.image ?? ""))
+//            .resizable()
+//            .indicator(.activity)
+//            .transition(.fade(duration: 0.5))
+//            .aspectRatio(contentMode: .fill)
+//            .frame(maxWidth: .infinity,
+//                   maxHeight: imageheight)
+//            .cornerRadius(20)
+//
+//    }
     
     var titledetail : some View {
         HStack {
