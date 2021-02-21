@@ -6,8 +6,8 @@
 // ??
 
 import SwiftUI
-import Tourism
 import SDWebImageSwiftUI
+import Tourism
 import Core
 
 struct DetailView: View {
@@ -162,6 +162,7 @@ extension DetailView {
             .fixedSize(horizontal: false, vertical: true)
             .foregroundColor(Color("text"))
             .font(.body)
+            .padding(.bottom, 100)
     }
     
 }
