@@ -9,7 +9,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 workspace 'ForYouDicodingIOSExpertSub1'
 
-
 target 'ForYouDicodingIOSExpertSub1' do
   # Pods for ForYouDicodingIOSExpertSub1
   pod 'Alamofire', '~> 5.2'
@@ -34,5 +33,4 @@ target 'Tourism' do
   pod 'RealmSwift'
   pod 'Alamofire', '~> 5.2'
   pod 'Core'
-  
 end
