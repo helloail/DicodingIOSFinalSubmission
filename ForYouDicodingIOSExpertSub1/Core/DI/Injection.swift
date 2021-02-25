@@ -13,44 +13,35 @@ import Tourism
 final class Injection: NSObject {
 
     func provideHomeModul<U: UseCase>() -> U where U.Request == Any, U.Response == [TourismModel] {
-        // 2
+    
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
             
-        // 3
         let locale = GetTourismLocaleDataSource(realm: appDelegate.realm)
             
-        // 4
         let remote = GetTourismRemoteDataSource(endpoint: Endpoints.Gets.list.url)
             
-        // 5
         let mapper = TourismTransformer()
             
-        // 6
         let repository = GetTourismRepository(
             localeDataSource: locale,
             remoteDataSource: remote,
             mapper: mapper)
             
-        // 7
         return Interactor(repository: repository) as! U
     }
     
     func provideFavoriteModul<U: UseCase>() -> U where U.Request == String, U.Response == [TourismModel] {
-        // 2
+     
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
             
-        // 3
         let locale = GetFavoriteTourismLocaleDataSource(realm: appDelegate.realm)
             
-        // 5
         let mapper = TourismTransformer()
-            
-        // 6
+        
         let repository = GetFavoriteTourismRepository(
             localeDataSource: locale,
             mapper: mapper)
             
-        // 7
         return Interactor(repository: repository) as! U
     }
     
